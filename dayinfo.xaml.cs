@@ -24,6 +24,7 @@ namespace WOWS_UWP
     {
         private List<dayshipinfo> dailyinfo;
         private List<Shipinfo> shipsjob;
+        private info userinfo;
         public dayinfo()
         {
             this.InitializeComponent();
@@ -36,12 +37,13 @@ namespace WOWS_UWP
         {
             base.OnNavigatedTo(e);
             info info = (info)e.Parameter;
+            userinfo = info;
             dailyinfo = info.dayinfo;
             shipsjob = info.allshipinfo;
             dailyinfo.Sort(SortCompare);
             shipsjob.Sort(SortCompare1);
-            myname.Text += info.name;
-            if (info.zone == "南区")
+            myname.Text += "\n"+info.name;
+            if (info.zone == "south")
                 server.Text += "南区";
             else
                 server.Text += "北区";
@@ -110,14 +112,37 @@ namespace WOWS_UWP
         private void shiplist_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             string s = shiplist.SelectedValue.ToString();
+            string ss=Ships.getshipinfobyalias(s).cd;
             Shipinfo f = shipsjob.Find(
 
             delegate (Shipinfo user)
             {
                 return user.id.vehicleTypeCd.Equals(Ships.getshipinfobyalias(s).cd);
             });
+            maintodetail ff = new maintodetail();
+            ff.f = f;
+            ff.info = userinfo;
             Frame root = Window.Current.Content as Frame;
-            root.Navigate(typeof(shipbattledetail), f);
+            root.Navigate(typeof(shipbattledetail), ff);
+        }
+
+        private void showday_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            maintoday ff = new maintoday();
+            ff.f = showday.SelectedValue.ToString();
+            ff.info = userinfo;
+            Frame root = Window.Current.Content as Frame;
+            root.Navigate(typeof(daydetail), ff);
         }
     }
+    public class maintodetail {
+        public Shipinfo f { get; set; }
+        public info info { get; set; }
+    }
+    public class maintoday
+    {
+        public string f { get; set; }
+        public info info { get; set; }
+    }
+
 }

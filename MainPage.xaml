@@ -8,15 +8,16 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <Button x:Name="button" Content="&lt;(￣︶￣)↗[GO!]" HorizontalAlignment="Left" Height="49" Margin="10,295,0,0" VerticalAlignment="Top" Width="134" RenderTransformOrigin="0.507,0.531" Click="button_Click"/>
+        <Button x:Name="button" Content="&lt;(￣︶￣)↗[GO!]" HorizontalAlignment="Left" Height="49" Margin="10,295,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.507,0.531" Click="button_Click"/>
         <TextBlock x:Name="nameinput" HorizontalAlignment="Left" Margin="10,109,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="32" Width="56" FontSize="22" Text="名字"/>
-        <TextBox x:Name="usernameinput" HorizontalAlignment="Left" Height="20" Margin="71,109,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="279" PlaceholderText="能不能好好输入用户名"/>
-        <ComboBox x:Name="Zoneselect" HorizontalAlignment="Left" Height="36" Margin="10,198,0,0" VerticalAlignment="Top" Width="340" PlaceholderText="" DropDownClosed="Zoneselect_DropDownClosed">
+        <TextBox x:Name="usernameinput" Margin="71,109,10,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" PlaceholderText="能不能好好输入用户名"/>
+        <ComboBox x:Name="Zoneselect" HorizontalAlignment="Stretch" Height="36" Margin="10,198,10,0" VerticalAlignment="Top" PlaceholderText="" DropDownClosed="Zoneselect_DropDownClosed">
             <x:String>南区</x:String>
             <x:String>北区</x:String>
         </ComboBox>
-        <Button x:Name="button1" Content="船只数据" HorizontalAlignment="Left" Height="49" Margin="176,295,0,0" VerticalAlignment="Top" Width="174" Click="button1_Click"/>
+        <Button x:Name="button1" Content="船只数据" HorizontalAlignment="Stretch" Height="49" Margin="207,295,10,0" VerticalAlignment="Top" Click="button1_Click"/>
         <TextBlock x:Name="Output" HorizontalAlignment="Left" Height="56" Margin="10,377,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="340"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="0,37,0,0" TextWrapping="Wrap" Text="不要爆炸了！！" VerticalAlignment="Top" Width="360" TextAlignment="Center" FontSize="18"/>
 
 
     </Grid>

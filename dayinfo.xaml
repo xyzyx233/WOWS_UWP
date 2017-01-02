@@ -8,12 +8,12 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <ListBox x:Name="showday" HorizontalAlignment="Left" Height="492" VerticalAlignment="Top" Width="170" Margin="10,95,0,0"/>
-        <ListBox x:Name="shiplist" HorizontalAlignment="Left" Height="492" Margin="190,95,0,0" VerticalAlignment="Top" Width="170" SelectionChanged="shiplist_SelectionChanged"/>
-        <TextBlock x:Name="myname" HorizontalAlignment="Left" Margin="7,10,0,0" TextWrapping="Wrap" Text="用户名：" VerticalAlignment="Top" FontSize="20" Width="173"/>
-        <TextBlock x:Name="server" HorizontalAlignment="Left" Margin="190,10,0,0" TextWrapping="Wrap" Text="所在区服：" VerticalAlignment="Top" Height="27" Width="160" FontSize="20"/>
+        <ListBox x:Name="showday" HorizontalAlignment="Left" Height="497" VerticalAlignment="Top" Width="190" Margin="0,90,0,0" SelectionChanged="showday_SelectionChanged"/>
+        <ListBox x:Name="shiplist" Height="497" Margin="190,90,0,0" VerticalAlignment="Top" SelectionChanged="shiplist_SelectionChanged"/>
+        <TextBlock x:Name="myname" HorizontalAlignment="Left" TextWrapping="Wrap" Text="用户名：" VerticalAlignment="Top" FontSize="20"/>
+        <TextBlock x:Name="server" Margin="256,0,0,0" TextWrapping="Wrap" Text="所在区服：" VerticalAlignment="Top" FontSize="20"/>
         <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="7,592,0,0" TextWrapping="Wrap" Text="返回" VerticalAlignment="Top" Height="38" Width="343" TextAlignment="Center" FontSize="24" Tapped="textBlock_Tapped"/>
-        <TextBlock x:Name="date" HorizontalAlignment="Left" Margin="10,63,0,0" TextWrapping="Wrap" Text="日期" VerticalAlignment="Top" FontSize="20" TextAlignment="Center" Width="71" Height="27"/>
+        <TextBlock x:Name="date" HorizontalAlignment="Left" Margin="0,63,0,0" TextWrapping="Wrap" Text="日期" VerticalAlignment="Top" FontSize="20" TextAlignment="Center" Width="71" Height="27"/>
         <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="190,63,0,0" TextWrapping="Wrap" Text="船只" VerticalAlignment="Top" FontSize="20" TextAlignment="Center" Width="95"/>
     </Grid>
 </Page>

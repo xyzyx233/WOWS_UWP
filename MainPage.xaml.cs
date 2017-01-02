@@ -29,6 +29,7 @@ namespace WOWS_UWP
         public MainPage()
         {
             this.InitializeComponent();
+            button.IsEnabled = false;
         }
 
         private async void button_Click(object sender, RoutedEventArgs e)
@@ -77,9 +78,13 @@ namespace WOWS_UWP
             }
             infos.ID = await h.GetLogininfo(usernameinput.Text, infos.zone);
             if (infos.ID.Equals("error information!"))
+            {
                 //Output.Text += infos.name + '\n';
                 //Output.Text += infos.zone+'\n';
-                Output.Text += infos.ID+'\n';
+                Output.Text += infos.ID + '\n';
+                return;
+            }
+            button.IsEnabled = true;
         }
 
         private void button1_Click(object sender, RoutedEventArgs e)

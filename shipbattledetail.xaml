@@ -8,36 +8,57 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <StackPanel HorizontalAlignment="Left" Height="535" Margin="10,55,0,0" VerticalAlignment="Top" Width="174" ScrollViewer.HorizontalScrollBarVisibility="Auto" ScrollViewer.VerticalScrollBarVisibility="Auto">
-            <TextBlock x:Name="textBlock1_Copy5" TextWrapping="Wrap" FontSize="16" Margin="12,0,0,0">
+        <StackPanel Margin="0,37,0,45" ScrollViewer.HorizontalScrollBarVisibility="Auto" ScrollViewer.VerticalScrollBarVisibility="Auto" HorizontalAlignment="Left" Width="223">
+            <TextBlock x:Name="textBlock1_Copy5" TextWrapping="Wrap" FontSize="16" HorizontalAlignment="Left" Width="189">
                 <Run Text="类型"/>
                 <Run Text="："/>
             </TextBlock>
-            <TextBlock x:Name="textBlock1_Copy21" TextWrapping="Wrap" Text="战力：" FontSize="16" Margin="12,0,0,0"/>
-            <TextBlock x:Name="textBlock1" TextWrapping="Wrap" Text="击落飞机数：" FontSize="16" Margin="11,0,0,0"/>
-            <TextBlock x:Name="textBlock1_Copy" TextWrapping="Wrap" Text="组队战斗数：" FontSize="16" Margin="12,0,0,0"/>
-            <TextBlock x:Name="textBlock1_Copy1" TextWrapping="Wrap" Text="组队胜利数：" FontSize="16" Margin="12,0,0,0"/>
-            <TextBlock x:Name="textBlock1_Copy2" TextWrapping="Wrap" Text="存活次数：" FontSize="16" Margin="12,0,0,0"/>
-            <TextBlock x:Name="textBlock1_Copy3" TextWrapping="Wrap" Text="击沉数：" FontSize="16" Margin="12,0,0,0"/>
-            <TextBlock x:Name="textBlock1_Copy4" TextWrapping="Wrap" Text="对航母造成的伤害数：" FontSize="16" Margin="12,0,0,0"/>
-            <TextBlock x:Name="textBlock1_Copy6" TextWrapping="Wrap" Text="最高伤害数：" FontSize="16" Margin="12,0,0,0"/>
-            <TextBlock x:Name="textBlock1_Copy9" TextWrapping="Wrap" Text="伤害总量：" FontSize="16" Margin="12,0,0,0"/>
-            <TextBlock x:Name="textBlock1_Copy11" TextWrapping="Wrap" Text="起火伤害：" FontSize="16" Margin="12,0,0,0"/>
-            <TextBlock x:Name="textBlock1_Copy12" TextWrapping="Wrap" Text="最高击沉数：" FontSize="16" Margin="12,0,0,0"/>
-            <TextBlock x:Name="textBlock1_Copy13" TextWrapping="Wrap" Text="炮击伤害：" FontSize="16" Margin="12,0,0,0"/>
-            <TextBlock x:Name="textBlock1_Copy14" TextWrapping="Wrap" Text="经验值：" FontSize="16" Margin="12,0,0,0"/>
-            <TextBlock x:Name="textBlock1_Copy15" TextWrapping="Wrap" Text="最高经验：" FontSize="16" Margin="12,0,0,0"/>
-            <TextBlock x:Name="textBlock1_Copy16" TextWrapping="Wrap" Text="对战列舰伤害：" FontSize="16" Margin="12,0,0,0"/>
-            <TextBlock x:Name="textBlock1_Copy17" TextWrapping="Wrap" Text="对巡洋舰造成的伤害：" FontSize="16" Margin="12,0,0,0"/>
-            <TextBlock x:Name="textBlock1_Copy18" TextWrapping="Wrap" Text="进水造成的伤害：" FontSize="16" Margin="12,0,0,0"/>
-            <TextBlock x:Name="textBlock1_Copy19" TextWrapping="Wrap" Text="最高击沉数：" FontSize="16" Margin="12,0,0,0"/>
-            <TextBlock x:Name="textBlock1_Copy20" TextWrapping="Wrap" Text="战斗次数：" FontSize="16" Margin="12,0,0,0"/>
+            <TextBlock x:Name="textBlock1_Copy21" TextWrapping="Wrap" Text="战力：" FontSize="16" HorizontalAlignment="Left" Width="189"/>
+            <TextBlock x:Name="textBlock1" TextWrapping="Wrap" Text="击落飞机数：" FontSize="16" HorizontalAlignment="Left" Width="189"/>
+            <TextBlock x:Name="textBlock1_Copy" TextWrapping="Wrap" Text="组队战斗数：" FontSize="16" HorizontalAlignment="Left" Width="189"/>
+            <TextBlock x:Name="textBlock1_Copy1" TextWrapping="Wrap" Text="组队胜利数：" FontSize="16" HorizontalAlignment="Left" Width="189"/>
+            <TextBlock x:Name="textBlock1_Copy2" TextWrapping="Wrap" Text="存活次数：" FontSize="16" HorizontalAlignment="Left" Width="189"/>
+            <TextBlock x:Name="textBlock1_Copy3" TextWrapping="Wrap" Text="击沉数：" FontSize="16" HorizontalAlignment="Left" Width="189"/>
+            <TextBlock x:Name="textBlock1_Copy4" TextWrapping="Wrap" Text="对航母造成的伤害数：" FontSize="16" HorizontalAlignment="Left" Width="223"/>
+            <TextBlock x:Name="textBlock1_Copy6" TextWrapping="Wrap" Text="最高伤害数：" FontSize="16" HorizontalAlignment="Left" Width="189"/>
+            <TextBlock x:Name="textBlock1_Copy9" TextWrapping="Wrap" Text="场均伤害：" FontSize="16" HorizontalAlignment="Left" Width="189"/>
+            <TextBlock x:Name="textBlock1_Copy11" TextWrapping="Wrap" Text="起火伤害：" FontSize="16" HorizontalAlignment="Left" Width="189"/>
+            <TextBlock x:Name="textBlock1_Copy12" TextWrapping="Wrap" Text="最高击沉数：" FontSize="16" HorizontalAlignment="Left" Width="189"/>
+            <TextBlock x:Name="textBlock1_Copy13" TextWrapping="Wrap" Text="场均炮击伤害：" FontSize="16" HorizontalAlignment="Left" Width="189"/>
+            <TextBlock x:Name="textBlock1_Copy14" TextWrapping="Wrap" Text="经验值：" FontSize="16" HorizontalAlignment="Left" Width="189"/>
+            <TextBlock x:Name="textBlock1_Copy15" TextWrapping="Wrap" Text="最高经验：" FontSize="16" HorizontalAlignment="Left" Width="189"/>
+            <TextBlock x:Name="textBlock1_Copy16" TextWrapping="Wrap" Text="对战列舰伤害：" FontSize="16" HorizontalAlignment="Left" Width="189"/>
+            <TextBlock x:Name="textBlock1_Copy17" TextWrapping="Wrap" Text="对巡洋舰造成的伤害：" FontSize="16" HorizontalAlignment="Left" Width="223"/>
+            <TextBlock x:Name="textBlock1_Copy18" TextWrapping="Wrap" Text="进水造成的伤害：" FontSize="16" HorizontalAlignment="Left" Width="189"/>
+            <TextBlock x:Name="textBlock1_Copy7" TextWrapping="Wrap" Text="场均伤害：" FontSize="16" HorizontalAlignment="Left" Width="189"/>
+            <TextBlock x:Name="textBlock1_Copy20" TextWrapping="Wrap" Text="战斗次数：" FontSize="16" HorizontalAlignment="Left" Width="189"/>
+            <TextBlock x:Name="textBlock1_Copy8" TextWrapping="Wrap" Text="效率：" FontSize="16" HorizontalAlignment="Left" Width="189"/>
         </StackPanel>
-        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Height="40" Margin="9,590,0,0" TextWrapping="Wrap" Text="返回" VerticalAlignment="Top" Width="341" TextAlignment="Center" FontSize="24"/>
-        <TextBlock x:Name="shipname" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="shipbname" VerticalAlignment="Top" Height="37" Width="147" FontSize="22" TextAlignment="Center"/>
-        <TextBlock x:Name="englishname" HorizontalAlignment="Left" Margin="188,10,0,0" TextWrapping="Wrap" Text="shipbname" VerticalAlignment="Top" Height="37" Width="162" FontSize="22" TextAlignment="Center"/>
-        <StackPanel x:Name="datalist" HorizontalAlignment="Left" Height="530" Margin="189,55,0,0" VerticalAlignment="Top" Width="161">
-            <TextBlock x:Name="type" TextWrapping="Wrap" Text="" TextAlignment="Right"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Height="35" Margin="9,595,0,0" TextWrapping="Wrap" Text="返回" VerticalAlignment="Top" Width="341" TextAlignment="Center" FontSize="24" Tapped="textBlock_Tapped"/>
+        <TextBlock x:Name="shipname" HorizontalAlignment="Left" TextWrapping="Wrap" Text="shipbname" VerticalAlignment="Top" Width="147" FontSize="22" TextAlignment="Center" Height="27"/>
+        <TextBlock x:Name="englishname" HorizontalAlignment="Left" Margin="188,0,0,0" TextWrapping="Wrap" Text="shipbname" VerticalAlignment="Top" Width="162" FontSize="22" TextAlignment="Center"/>
+        <StackPanel x:Name="datalist" HorizontalAlignment="Left" Height="558" Margin="223,37,0,0" VerticalAlignment="Top" Width="137">
+            <TextBlock x:Name="type" TextWrapping="Wrap" Text="" TextAlignment="Right" FontSize="16"/>
+            <TextBlock x:Name="power" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" VerticalAlignment="Top" TextAlignment="Right" Width="161" FontSize="16"/>
+            <TextBlock x:Name="planefall" TextWrapping="Wrap" Text="" FontSize="16" TextAlignment="Right"/>
+            <TextBlock x:Name="teamup" TextWrapping="Wrap" Text="" FontSize="16" TextAlignment="Right"/>
+            <TextBlock x:Name="teamwin" TextWrapping="Wrap" Text="" FontSize="16" TextAlignment="Right"/>
+            <TextBlock x:Name="alivetimes" TextWrapping="Wrap" Text="" FontSize="16" TextAlignment="Right"/>
+            <TextBlock x:Name="shotdown" TextWrapping="Wrap" Text="" FontSize="16" TextAlignment="Right"/>
+            <TextBlock x:Name="hurtCV" TextWrapping="Wrap" Text="" FontSize="16" TextAlignment="Right"/>
+            <TextBlock x:Name="highdamge" TextWrapping="Wrap" Text="" FontSize="16" TextAlignment="Right"/>
+            <TextBlock x:Name="averagehurt" TextWrapping="Wrap" Text="" FontSize="16" TextAlignment="Right"/>
+            <TextBlock x:Name="firefire" TextWrapping="Wrap" Text="" FontSize="16" TextAlignment="Right"/>
+            <TextBlock x:Name="maxdown" TextWrapping="Wrap" Text="" FontSize="16" TextAlignment="Right"/>
+            <TextBlock x:Name="shot" TextWrapping="Wrap" Text="" FontSize="16" TextAlignment="Right"/>
+            <TextBlock x:Name="experience" TextWrapping="Wrap" Text="" FontSize="16" TextAlignment="Right"/>
+            <TextBlock x:Name="maxexp" TextWrapping="Wrap" Text="" FontSize="16" TextAlignment="Right"/>
+            <TextBlock x:Name="tobb" TextWrapping="Wrap" Text="" FontSize="16" TextAlignment="Right"/>
+            <TextBlock x:Name="toCA" TextWrapping="Wrap" Text="" FontSize="16" TextAlignment="Right"/>
+            <TextBlock x:Name="floodhurt" TextWrapping="Wrap" Text="" FontSize="16" TextAlignment="Right"/>
+            <TextBlock x:Name="avedemage" TextWrapping="Wrap" Text="" FontSize="16" TextAlignment="Right"/>
+            <TextBlock x:Name="battle" TextWrapping="Wrap" Text="" FontSize="16" TextAlignment="Right"/>
+            <TextBlock x:Name="rate" TextWrapping="Wrap" Text="" FontSize="16" TextAlignment="Right"/>
         </StackPanel>
 
     </Grid>

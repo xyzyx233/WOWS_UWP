@@ -8,8 +8,8 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <ListBox x:Name="shiplistdisplay" HorizontalAlignment="Left" Height="566" Margin="10,10,0,0" VerticalAlignment="Top" Width="340" SelectionChanged="shiplistdisplay_SelectionChanged"/>
-        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="10,581,0,0" TextWrapping="Wrap" Text="返回" VerticalAlignment="Top" Height="49" Width="340" FontSize="36" TextAlignment="Center" Tapped="textBlock_Tapped"/>
+        <ListBox x:Name="shiplistdisplay" HorizontalAlignment="Left" Height="591" VerticalAlignment="Top" Width="360" SelectionChanged="shiplistdisplay_SelectionChanged"/>
+        <TextBlock x:Name="textBlock" Margin="0,591,0,0" TextWrapping="Wrap" Text="返回" VerticalAlignment="Top" Height="49" FontSize="36" TextAlignment="Center" Tapped="textBlock_Tapped" HorizontalAlignment="Left" Width="360"/>
 
     </Grid>
 </Page>

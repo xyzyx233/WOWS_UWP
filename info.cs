@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace WOWS_UWP
 {
-    class info
+    public class info
     {
         public string name { get; set; }
         public string ID { get; set; }

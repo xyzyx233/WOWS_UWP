@@ -6,6 +6,7 @@ namespace WOWS_UWP
     {
         public int killplane { get; set; }
         public int teambattles { get; set; }
+        public int teamwins { get; set; }
         public int alive { get; set; }
         public ID id { get; set; }
         public int killship { get; set; }
@@ -23,12 +24,15 @@ namespace WOWS_UWP
         public activedate active_date { get; set; }
         public double winPower { get; set; }
         public int damagefire { get; set; }
+        public int maxkillplane { get; set; }
         public int damageshot { get; set; }
         public int exp { get; set; }
+        public int maxexp { get; set;}
         public int damagebb { get; set; }
         public updatedate update_date { get; set; }
         public int damageflood { get; set; }
         public int damageca { get; set; }
+        public int maxkillship { get; set; }
         public int battles { get; set; }
         public int capturep { get; set; }
         public int wins { get; set; }

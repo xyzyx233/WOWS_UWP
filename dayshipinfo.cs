@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace WOWS_UWP
 {
-    class dayshipinfo
+    public class dayshipinfo
     {
         public int teambattles { get; set; }
         public int killplane { get; set; }
