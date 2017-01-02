@@ -1,0 +1,38 @@
+﻿<Page
+    x:Class="WOWS_UWP.shipdetail"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:WOWS_UWP"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <FlyoutBase.AttachedFlyout>
+            <Flyout/>
+        </FlyoutBase.AttachedFlyout>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Height="28" Margin="10,56,0,0" TextWrapping="Wrap" Text="舰艇代码：" VerticalAlignment="Top" Width="113" FontSize="22" TextAlignment="Center"/>
+        <TextBlock x:Name="textBlock_Copy" HorizontalAlignment="Left" Height="28" Margin="10,89,0,0" TextWrapping="Wrap" Text="舰艇编号：" VerticalAlignment="Top" Width="113" FontSize="22" TextAlignment="Center"/>
+        <TextBlock x:Name="textBlock_Copy1" HorizontalAlignment="Left" Height="28" Margin="10,122,0,0" TextWrapping="Wrap" Text="英文名：" VerticalAlignment="Top" Width="113" FontSize="22" TextAlignment="Center"/>
+        <TextBlock x:Name="textBlock_Copy2" HorizontalAlignment="Left" Height="28" Margin="10,155,0,0" TextWrapping="Wrap" Text="中文名：" VerticalAlignment="Top" Width="113" FontSize="22" TextAlignment="Center"/>
+        <TextBlock x:Name="textBlock_Copy3" HorizontalAlignment="Left" Height="28" Margin="10,188,0,0" TextWrapping="Wrap" Text="所属国家：" VerticalAlignment="Top" Width="113" FontSize="22" TextAlignment="Center"/>
+        <TextBlock x:Name="textBlock_Copy4" HorizontalAlignment="Left" Height="28" Margin="10,221,0,0" TextWrapping="Wrap" Text="舰艇类型：" VerticalAlignment="Top" Width="113" FontSize="22" TextAlignment="Center"/>
+        <TextBlock x:Name="textBlock_Copy5" HorizontalAlignment="Left" Height="28" Margin="10,254,0,0" TextWrapping="Wrap" Text="舰艇等级：" VerticalAlignment="Top" Width="113" FontSize="22" TextAlignment="Center"/>
+        <TextBlock x:Name="textBlock_Copy6" HorizontalAlignment="Left" Height="28" Margin="10,287,0,0" TextWrapping="Wrap" Text="舰艇权重：" VerticalAlignment="Top" Width="113" FontSize="22" TextAlignment="Center"/>
+        <TextBlock x:Name="textBlock_Copy7" HorizontalAlignment="Left" Height="28" Margin="10,320,0,0" TextWrapping="Wrap" Text="基础权重：" VerticalAlignment="Top" Width="113" FontSize="22" TextAlignment="Center"/>
+        <TextBlock x:Name="textBlock_Copy8" HorizontalAlignment="Left" Height="28" Margin="10,353,0,0" TextWrapping="Wrap" Text="国服名称：" VerticalAlignment="Top" Width="113" FontSize="22" TextAlignment="Center"/>
+        <TextBlock x:Name="textBlock_Copy9" HorizontalAlignment="Left" Height="28" Margin="10,386,0,0" TextWrapping="Wrap" Text="是否存在：" VerticalAlignment="Top" Width="113" FontSize="22" TextAlignment="Center"/>
+        <TextBlock x:Name="cd" HorizontalAlignment="Left" Height="28" Margin="128,56,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Width="222"/>
+        <TextBlock x:Name="id" HorizontalAlignment="Left" Height="28" Margin="138,89,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Width="212"/>
+        <TextBlock x:Name="name" HorizontalAlignment="Left" Height="28" Margin="138,122,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Width="212"/>
+        <TextBlock x:Name="alias" HorizontalAlignment="Left" Height="28" Margin="138,155,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Width="212"/>
+        <TextBlock x:Name="country" HorizontalAlignment="Left" Height="28" Margin="138,188,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Width="212"/>
+        <TextBlock x:Name="tyoe" HorizontalAlignment="Left" Height="28" Margin="138,221,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Width="212"/>
+        <TextBlock x:Name="lvl" HorizontalAlignment="Left" Height="28" Margin="138,254,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Width="212"/>
+        <TextBlock x:Name="weight" HorizontalAlignment="Left" Height="28" Margin="138,287,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Width="212"/>
+        <TextBlock x:Name="baseweight" HorizontalAlignment="Left" Height="28" Margin="148,320,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Width="212"/>
+        <TextBlock x:Name="cnname" HorizontalAlignment="Left" Height="28" Margin="138,353,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Width="212"/>
+        <TextBlock x:Name="jump" HorizontalAlignment="Left" Height="28" Margin="128,386,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Width="212"/>
+        <TextBlock x:Name="backtoparents" HorizontalAlignment="Left" Height="66" Margin="10,461,0,0" TextWrapping="Wrap" Text="返回" VerticalAlignment="Top" Width="340" TextAlignment="Center" FontSize="48" Tapped="backtoparents_Tapped"/>
+    </Grid>
+</Page>
